@@ -1,4 +1,4 @@
-### Grade Calculator
+# Grade Calculator
 ## The input
 
 The program's input is to be read from the standard input (i.e., std::cin). It is separated into four sections:
@@ -9,7 +9,7 @@ A list of the raw scores received on each graded artifact by students in the cou
 A list of cutpoint sets, describing the total score required to receive an A, B, C, or D, respectively. (This project assumes that there are no +/- modifiers on grades, and that there are no other kinds of grades such as Incomplete, though we will support Pass/NotPass grades; see below.)
 Each section is described in more detail below.
 
-# Graded artifacts
+### Graded artifacts
 
 The section describing graded artifacts begins with a positive integer, alone on a line, specifying the number of graded artifacts. This is followed, on another line, by a sequence of positive integers separated by spaces, indicating the total points possible on each graded artifact. Finally, on one more line, there will be a sequence of positive integers separated by spaces, indicating the relative weight of each graded artifact. An example of this section would be:
 
@@ -30,7 +30,7 @@ The next section of input describes the students enrolled in the course. It begi
 567 G Too-Many Courses
 Student IDs do not necessarily have to be three digits, and they do not necessarily all have to be the same number of digits.
 
-# Raw scores
+### Raw scores
 
 The next section of input describes the raw scores earned by students on each graded artifact. The section begins with a positive integer, alone on a line, specifying the number of students for which raw scores are listed. Given that positive integer n, there will be n additional lines, each consisting of a sequence of non-negative integers separated by spaces, the first of which is a student ID, and the rest of which are raw scores for each graded artifact. If there are m graded artifacts, you can assume each of these lines will contain m + 1 integers (one student ID, followed by m raw scores), and that the scores correspond, in order, to the graded artifacts listed in the first section. Example:
 
