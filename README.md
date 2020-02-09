@@ -13,9 +13,9 @@ Each section is described in more detail below.
 
 The section describing graded artifacts begins with a positive integer, alone on a line, specifying the number of graded artifacts. This is followed, on another line, by a sequence of positive integers separated by spaces, indicating the total points possible on each graded artifact. Finally, on one more line, there will be a sequence of positive integers separated by spaces, indicating the relative weight of each graded artifact. An example of this section would be:
 
-7\n
-15 15 15 15 15 50 50\n
-12 12 12 12 12 15 25\n
+7\
+15 15 15 15 15 50 50\
+12 12 12 12 12 15 25\
 This example describes seven graded artifacts, the first five having 15 points possible and relative weights of 12, the sixth having 50 points possible and a relative weight of 15, and the last having 50 points possible and a relative weight of 25. Note that, in this example, the relative weights add up to 100; in general, however, this will not always be the case.
 
 # Students
